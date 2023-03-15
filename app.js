@@ -1,4 +1,4 @@
-let name = prompt("Kindly enter your name :-)");
+let name = prompt("Let us know your name :-)");
 let gender = prompt("What is your gender?");
 
 if (gender === "male") {
