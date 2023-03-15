@@ -1,9 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Sono:wght@300;400;500&family=Source+Code+Pro:ital,wght@1,200;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 body {
   background-image: url("images/bg.jpg");
+  font-family: "Edu NSW ACT Foundation";
+  background-size: cover;
+x }
+main {
+  margin: 10rem auto;
+  width: 40rem;
+  color: white;
 }
 .navbar {
   background-color: black;
 }
 .nav-link {
+  color: white;
+}
+h5 {
+  color: white;
+}
+footer {
+  position: relative;
+  display: grid;
+  height: 4.1rem;
+  background-color: black;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px;
+}
+footer svg {
+  display: grid;
+  cursor: pointer;
+  justify-self: center;
+  margin-top: 7px;
+}
+footer a {
+  display: grid;
+  justify-self: center;
+  margin: 5px;
+  text-decoration: none;
   color: white;
 }
