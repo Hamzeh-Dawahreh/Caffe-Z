@@ -62,7 +62,7 @@ button:hover {
   border-image: linear-gradient(black, grey, white) 1;
   position: absolute;
   right: 10rem;
-  top: 8rem;
+  top: 12rem;
 }
 
 .secondary {
