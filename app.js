@@ -43,7 +43,7 @@ userform.addEventListener("submit", (e) => {
 
   let Customer = document.getElementById("hello");
   let div = document.createElement("div");
-  let p = document.createElement("p");
+  let p = document.createElement("p1");
   let ul = document.createElement("ul");
   let li2 = document.createElement("li");
   let li3 = document.createElement("li");
@@ -57,5 +57,13 @@ userform.addEventListener("submit", (e) => {
 
   p.textContent = User1;
   li2.textContent = `Age: ${age}`;
-  li3.textContent = `drink: ${type1}  ${type2} ${order}`;
+  li3.textContent = `drink: ${type1}  ${type2}  ${order}`;
+
+  Customer.style.border ="1px solid black"
+  Customer.style.display = "flex"
+  Customer.style.height = "7rem"
+  Customer.style.padding ="10px"
+  p.style.marginLeft ="20px"
+  p.style.fontWeight = "bolder"
+  userform.reset();
 });
