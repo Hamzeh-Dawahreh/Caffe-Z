@@ -28,14 +28,15 @@ body {
 .welcome {
   font-size: 70px;
 }
-button, #button1 {
+button,
+#button1 {
   padding: 5px;
   margin: 5px;
   background-color: white;
   color: white;
   box-shadow: 1px 1px 0 1px;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   width: 10rem;
@@ -45,27 +46,29 @@ form .input1 {
   border-radius: 20px;
   padding: 5px;
   height: 35px;
-  
 }
-#button1{
+#button1 {
   width: 5rem;
   height: 2.5rem;
 }
 
-#Get{
+#Get {
   text-decoration: none;
 }
 
-.first, #button1 {
+.first,
+#button1 {
   background-color: rgb(31, 33, 49);
   color: white;
   font-size: larger;
 }
 .div1 {
-display: flex;
-
+  display: flex;
 }
 
+.secondary label {
+  color: white;
+}
 
 .second {
   background-color: transparent;
@@ -96,6 +99,7 @@ button :hover {
 }
 .navbar {
   background-color: rgb(41, 44, 48);
+  height: 3rem;
 }
 .nav-link {
   color: black;

@@ -59,16 +59,16 @@ userform.addEventListener("submit", (e) => {
   li2.textContent = `Age: ${age}`;
   li3.textContent = `drink: ${type1}  ${type2}  ${order}`;
 
-  // Customer.style.border ="1px solid black"
-  Customer.style.border ="1px solid black"
-  Customer.style.fontStyle = "italic"
-  Customer.style.background = "linear-gradient(to right, #1f2131, #2d3135"
-  Customer.style.color = "white"
-  Customer.style.display = "flex"
-  Customer.style.height = "5rem"
-  Customer.style.padding ="5px"
-  Customer.style.marginLeft ="5rem"
-  div.style.marginLeft ="3rem"
-  p.style.fontWeight = "bolder"
+  Customer.style.border = "1px solid black";
+  Customer.style.fontStyle = "italic";
+  Customer.style.background = "linear-gradient(to right, #1f2131, #2d3135";
+  Customer.style.color = "white";
+  Customer.style.display = "flex";
+  Customer.style.height = "5rem";
+  Customer.style.padding = "5px";
+  Customer.style.marginLeft = "5rem";
+
+  div.style.marginLeft = "3rem";
+  p.style.fontWeight = "bolder";
   userform.reset();
 });
